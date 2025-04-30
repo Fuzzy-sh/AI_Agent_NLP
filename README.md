@@ -1,0 +1,1 @@
+The repo includes a data-analysis chat agent. It uses a router and three tools—a sales-data fetcher, an analysis engine, and a visualization module—to generate insight-rich responses. [ ref:https://learn.deeplearning.ai ]
