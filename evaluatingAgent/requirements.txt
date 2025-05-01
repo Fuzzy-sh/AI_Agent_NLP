@@ -3,7 +3,7 @@
 # in this file, insert all the pip install needs, include revision
 
 #for example:
-#torch==2.0.1
+# torch==2.0.1
 numpy==1.26.3
 matplotlib
 
