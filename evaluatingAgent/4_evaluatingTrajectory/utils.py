@@ -65,7 +65,7 @@ MODEL = "gpt-4o-mini"
 
 # Tool 1: Database Lookup
 TRANSACTION_DATA_FILE_PATH = '../data/Store_Sales_Price_Elasticity_Promotions_Data.parquet'
-print ("Loading data from:", TRANSACTION_DATA_FILE_PATH)
+# print ("Loading data from:", TRANSACTION_DATA_FILE_PATH)
 
 # prompt template for step 2 of tool 1
 SQL_GENERATION_PROMPT = """
