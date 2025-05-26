@@ -25,9 +25,10 @@ To begin, ensure you have an AWS Identity and Access Management (IAM) user with 
     ![Creating a new IAM user](image.png)
 
 4. **Add Permissions (If Not Added During Creation)**  
-    If you skipped permissions, assign them now. For example, grant access to Amazon S3:
+    If you skipped permissions, assign them now. For example, grant access to Amazon S3, or Bedrock:
 
-    ![Adding S3 permissions](image-2.png)
+ 
+    ![Adding S3 and Bedrock permissions](image-4.png)
 
 5. **Organize Users with Groups (Recommended)**  
     For better management, create IAM groups with specific policies and add users to these groups. This helps enforce least privilege and simplifies access control.
