@@ -16,3 +16,5 @@ To get started, you need an AWS Identity and Access Management (IAM) user accoun
     - Complete the steps to create the user and securely save the access credentials.
 
 For more detailed instructions, refer to the [AWS IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
+
+![alt text](image.png)
