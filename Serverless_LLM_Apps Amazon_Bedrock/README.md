@@ -73,6 +73,8 @@ aws --version
 aws-cli/2.27.22 Python/3.13.3 Darwin/24.5.0 exe/x86_64
 ```
 
+---
+
 ### Step 3: Configure the AWS CLI
 
 After installing the AWS CLI, configure it to use your IAM credentials and preferred settings. Open your terminal and run:
