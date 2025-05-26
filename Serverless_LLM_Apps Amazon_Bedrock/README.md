@@ -72,3 +72,30 @@ which aws
 aws --version
 aws-cli/2.27.22 Python/3.13.3 Darwin/24.5.0 exe/x86_64
 ```
+
+### Step 3: Configure the AWS CLI
+
+After installing the AWS CLI, configure it to use your IAM credentials and preferred settings. Open your terminal and run:
+
+```sh
+aws configure
+```
+
+You’ll be prompted to enter:
+
+- **AWS Access Key ID**: Paste the access key you generated earlier in step 1.
+- **AWS Secret Access Key**: Paste the corresponding secret access key.
+- **Default region name**: Enter `us-west-2` (recommended for this project).
+- **Default output format**: You can specify `json`, `yaml`, or leave blank for the default.
+
+Example interaction:
+
+```
+$ aws configure
+AWS Access Key ID [None]: "Access Key ID"
+AWS Secret Access Key [None]: "Secret Access Key"
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
+
+Your credentials and configuration will be saved in `~/.aws/credentials` and `~/.aws/config`. For advanced configuration options and best practices, refer to the [AWS CLI configuration documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-methods).
