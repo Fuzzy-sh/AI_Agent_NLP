@@ -34,4 +34,21 @@ To get started, you need an AWS Identity and Access Management (IAM) user accoun
 
     ![IAM user created](image-1.png)
 
+
+
+After assigning the necessary permissions, you can generate an access key and secret access key for your IAM user. These credentials are required for programmatic access to AWS services. To create them:
+
+1. Go to the IAM console and select your user.
+2. Navigate to the **Security credentials** tab.
+3. Under **Access keys**, click **Create access key**. 
+
+4. In the **Access key best practices & alternatives** section, click on **Other** to view additional options and recommendations for securely managing your access keys.
+5. We can give it any description to remember it later.
+6. Download and securely store the access key ID and secret access key.  
+    **Important:** You will not be able to view the secret access key again after this step.
+
+Use these credentials to configure your AWS CLI or SDKs for development.
+
+![alt text](image-3.png)
+
 For more detailed instructions, refer to the [AWS IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
