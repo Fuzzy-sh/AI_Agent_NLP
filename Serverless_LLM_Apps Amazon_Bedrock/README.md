@@ -127,7 +127,7 @@ After completing the previous steps, you are ready to run the code in the `first
 
 To get started:
 
-1. Open the `first_generations_with_amazon_bedrock.ipynb` notebook in your preferred environment (such as Jupyter Notebook or VS Code).
+1. Open the `first_generations_with_amazon_bedrock.ipynb` notebook (located in 1_GenAmazonBedrock) in your preferred environment (such as Jupyter Notebook or VS Code).
 2. Ensure your AWS CLI is configured and your credentials are available.
 3. Follow the instructions in the notebook to execute the cells and observe the results.
 
