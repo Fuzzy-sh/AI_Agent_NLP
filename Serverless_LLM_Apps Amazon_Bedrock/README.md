@@ -105,7 +105,7 @@ Your credentials and configuration will be saved in `~/.aws/credentials` and `~/
 
 
 
-### Step 4: Access to Titan Text G1 - Lite
+### Step 4: Access to models
 **Note:** This guide uses the `us-west-2` (Oregon) region. Ensure your AWS account is set to the same region, as access to the Titan Text G1 - Lite model may not be available elsewhere.
 
 To enable the Titan Text G1 - Lite model in Amazon Bedrock:
@@ -117,9 +117,9 @@ To enable the Titan Text G1 - Lite model in Amazon Bedrock:
 
 If you do not select the correct region or enable access, you may not be able to use this model.
 
-![Access to Titan Text G1 - Lite](image-5.png)
+![Access to Models](image-7.png)
 
-
+You can follow the same steps above to request access to the **amazon.titan-text-express-v1** model. In the Amazon Bedrock console, search for "express" in the Model catalog, locate **Titan Text Express v1**, and enable access as needed. This allows you to use the more advanced Titan Text Express model in your serverless applications.
 
 ### Step 5: Finalizing
 
