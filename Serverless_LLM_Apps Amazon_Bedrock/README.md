@@ -102,3 +102,19 @@ Default output format [None]: json
 ```
 
 Your credentials and configuration will be saved in `~/.aws/credentials` and `~/.aws/config`. For advanced configuration options and best practices, refer to the [AWS CLI configuration documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-methods).
+
+
+
+### Step 4: Access to Titan Text G1 - Lite
+**Note:** This guide uses the `us-west-2` (Oregon) region. Ensure your AWS account is set to the same region, as access to the Titan Text G1 - Lite model may not be available elsewhere.
+
+To enable the Titan Text G1 - Lite model in Amazon Bedrock:
+
+1. In the AWS Console, search for **Amazon Bedrock**.
+2. Open the **Model access** or **Model catalog** section.
+3. Search for "lite" and locate the **Titan Text G1 - Lite** model.
+4. Select the model and grant access as needed.
+
+If you do not select the correct region or enable access, you may not be able to use this model.
+
+![Access to Titan Text G1 - Lite](image-5.png)
