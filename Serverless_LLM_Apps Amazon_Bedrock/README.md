@@ -118,3 +118,18 @@ To enable the Titan Text G1 - Lite model in Amazon Bedrock:
 If you do not select the correct region or enable access, you may not be able to use this model.
 
 ![Access to Titan Text G1 - Lite](image-5.png)
+
+
+
+### Step 5: Finalizing
+
+After completing the previous steps, you are ready to run the code in the `first_generations_with_amazon_bedrock.ipynb` notebook. This notebook demonstrates how to interact with Amazon Bedrock and generate text using the Titan Text G1 - Lite model.
+
+To get started:
+
+1. Open the `first_generations_with_amazon_bedrock.ipynb` notebook in your preferred environment (such as Jupyter Notebook or VS Code).
+2. Ensure your AWS CLI is configured and your credentials are available.
+3. Follow the instructions in the notebook to execute the cells and observe the results.
+
+You should now be able to generate text with Amazon Bedrock in a serverless workflow.
+![alt text](image-6.png)
