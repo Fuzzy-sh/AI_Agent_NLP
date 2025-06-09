@@ -4,6 +4,9 @@ This repository showcases how to build scalable, serverless applications powered
 
 ---
 
+
+# Part 1: Setup the **Amazon Bedrock**.
+
 ### Step 1: Set Up an IAM User
 
 To begin, ensure you have an AWS Identity and Access Management (IAM) user with the necessary permissions. If you don’t have one, follow these steps:
@@ -133,3 +136,16 @@ To get started:
 
 You should now be able to generate text with Amazon Bedrock in a serverless workflow.
 ![alt text](image-6.png)
+
+
+
+# Part 2: Creating and Accessing an S3 Bucket
+
+In Part 2, we need to create an **Amazon S3 bucket**. You can follow this [AWS tutorial video](https://aws.amazon.com/awstv/watch/5c76e13b7fe/) to guide you through the process.
+
+After creating the bucket (which must have a **globally unique name**), I added the bucket name to the `os.environ` dictionary in my local environment. This allows us to securely reference the bucket name in our code **without exposing it publicly**.
+
+A screenshot is included in Part 2 to demonstrate how to add the bucket name to your environment variables.
+
+<img width="927" alt="image" src="https://github.com/user-attachments/assets/ef98c0ac-f666-4808-8abc-f0eb4837ae63" />
+
